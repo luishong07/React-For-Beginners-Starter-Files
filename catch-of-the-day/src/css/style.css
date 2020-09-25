@@ -10,7 +10,7 @@
   max-height: 60px;
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  padding: 2rem 0 !important;
+  padding: 2rem 0 important;
 }
 .order-exit {
   -webkit-transition: 0.5s;
@@ -36,7 +36,6 @@
           transform: translateY(0);
 }
 .count-exit {
-  background: #000;
   -webkit-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition: 0.5s;
@@ -46,7 +45,6 @@
   bottom: 0;
 }
 .count-exit.count-exit-active {
-  background: #008000;
   -webkit-transform: translateY(-100%) scale(3);
           transform: translateY(-100%) scale(3);
 }
@@ -520,7 +518,7 @@ input[type=submit] {
   border: 1px solid #000;
   font-weight: 600;
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
